@@ -9,3 +9,6 @@ Bitbake 的 Recipes
 
 ./yocto_3.14.28-1.01/build/tmp/work/imx6dlsabresd-poky-linux-gnueabi/u-boot-imx/2014.04-r0/git
 ./yocto_3.14.28-1.01/build/tmp/work/imx6dlsabresd-poky-linux-gnueabi/linux-imx/3.14.28-r0/git
+
+## rootfs打包
+tar jcvf rootfs.tar.bz2 *
